@@ -28,3 +28,5 @@ Can be easily used for other dosing process.
 
 <img width=260 src="https://github.com/0xbabayaga/DDOZER/blob/main/img/ddozer_1.jpg"></img>
 <img width=260 src="https://github.com/0xbabayaga/DDOZER/blob/main/img/ddozer_2.jpg"></img>
+
+Based on STM8S105K4T6C, DRV8825 and SSD1306 OLED display. 
