@@ -6,7 +6,7 @@ Can be easily used for other dosing process.
 <b>Technical details:</b>
  - stepper motor & multystep control
  - precise - 0.1ml
- - flow - 6/24/50 ml per minute depending on currently selected option (low/normal/high) 
+ - flow rate (depends on currently option selected) - 6/24/50 ml per minute
  - dimension 52 x 60 x 93mm
  - power 12V DC / 0.2 ... 2.5A (depending on motor type)
  - acrylic body
@@ -16,14 +16,15 @@ Can be easily used for other dosing process.
 
 <img width=520 src="https://github.com/0xbabayaga/DDOZER/blob/main/img/ddozer_3.jpg"></img>
 
-Functionality:
- - daily programmble dosign (start dosing time - end dosing time - dosing volume - portion counts)
-   DDozer automatically divides necessary Volume and dosing interval to portion count set and doses it evenly. 
-   So start first dosage is started at Start Dosing Time & last dosage is completed at the End Dosing Time. Each portion volume equal to Dosing Volume / Portion counts.      
+<b>Functionality:</b>
+ - daily programmble dosign schedule (start dosing time / end dosing time / dosing volume / portions count)
+   DDozer automatically divides necessary Volume and dosing interval to Portions count set and doses it evenly. 
+   So start first dosage is started at Start Dosing Time & last dosage is completed at the End Dosing Time. Each portion of the volume equal to Dosing Volume / Portions count.     
  - calibration & verify
    User can calbrate and/or verify DDozer any time
  - all DDozer settings saved in nonvolatile memory
- - dosing statistics calculates and saves in nonvolatile memory (daily dosage/total device dosage/total motor hours/last calibration date)
+ - calculates and saves dosing statistics calculates in nonvolatile memory (daily dosage / total device dosage / total motor hours / last calibration date)
+ - daily overdosage protection
 
 <img width=260 src="https://github.com/0xbabayaga/DDOZER/blob/main/img/ddozer_1.jpg"></img>
 <img width=260 src="https://github.com/0xbabayaga/DDOZER/blob/main/img/ddozer_2.jpg"></img>
